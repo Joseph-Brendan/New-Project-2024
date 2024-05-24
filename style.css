@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.header-section{
+    width: 100%;
+    height: auto;
+    background-color: #e5e5e5;
+    padding: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logo-container{
+    width: fit-content;
+    height: auto;
+}
+
+.logo-container h3{
+    color: #1e1e1e;
+    font-size: 1.5rem;
+}
+
+.button-container{
+    width: fit-content;
+    height: auto;
+}
+
+.button-container button{
+    background-color: #1e1e1e;
+    color: #f8f8f8;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.hero-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: stretch;
+    background-color: #D1D1D1;
+    padding: 3rem 2rem 3rem 2rem;
+}
+
+.left-hero-container{
+    width: 50%;
+    height: auto;
+    background-color: white;
+    padding: 6rem 4rem 6rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.increase-sales-container{
+    width: fit-content;
+    height: auto;
+}
+
+.increase-sales-container h1{
+    font-size: 2.5rem;
+    color: #000000;
+}
+
+.boost-sales-container{
+    width: 100%;
+    height: auto;
+}
+
+.boost-sales-container p{
+    font-size: 1.2rem;
+    color: #1e1e1e;
+}
+
+.hero-button-container{
+    width: fit-content;
+    height: auto;
+}
+
+.hero-button-container button{
+    background-color: black;
+    color: white;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.right-hero-container{
+    width: 50%;
+    height: auto;
+}
+
+.hero-image-container{
+    width: 100%;
+    height: auto;
+}
+
+.hero-image-container img{
+    width: 100%;
+    height: auto;
+}
+
+.bottom-section{
+    width: 100%;
+    height: auto;
+    background-color: #898989;
+    padding: 3rem 3rem 3rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    column-gap: 1.5rem;
+}
+
+.card{
+    width: 40%;
+    height: auto;
+    background-color: white;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.card-title{
+    width: fit-content;
+    height: auto;
+}
+
+.card-title h3{
+    font-size: 1.8rem;
+}
+
+.lorem-container{
+    width: 100%;
+    height: auto;
+}
+
+.lorem-container p{
+    color: #1e1e1e;
+    line-height: 1.3rem;
+}
+
+.card-button-container{
+    width: fit-content;
+    height: auto;
+}
+
+.card-button-container button{
+    background-color: black;
+    color: white;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
